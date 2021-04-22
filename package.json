@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-vs-mysql",
+  "version": "1.0.0",
+  "description": "Comparação de desempenho do MongoDB vs MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongodb": "node server-mongodb",
+    "find-mongodb": "node find-mongodb",
+    "update-mongodb": "node update-mongodb",
+    "select-mysql": "node select-mysql",
+    "update-mysql": "node update-mysql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.5",
+    "mysql": "^2.18.1",
+    "objects-to-csv": "^1.3.6",
+    "promises-all": "^1.0.0"
+  }
+}
